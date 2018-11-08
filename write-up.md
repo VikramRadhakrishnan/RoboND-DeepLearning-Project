@@ -14,7 +14,8 @@ the entire network. Additionally, FCNs work on images of any size, as opposed to
 which are constrained by the dimensions of the fully connected layers.
 
 ## Network architecture
-The architecture of the FCN can be summarized as three blocks - an encoder block, a 1x1 convolution layer, and a decoder block.
+The architecture of the FCN can be summarized as three blocks - an encoder block, a 1x1 convolution layer, and a decoder block. The diagram below is a visualization of my chosen network architecture, created using Keras visualization tools (included in the Jupyter notebook with this project submission).
+[image1]: ./misc/model.png
 
 ### Encoder
 The role of the encoder is to extract features from the image, just as in a standard CNN. The layers closer to the input learn
@@ -59,7 +60,7 @@ iterations, I ended up with a learning rate of 0.0015, a batch size of 128 - cho
 I noticed after ~30 iterations that my validation loss was not decreasing further.
 
 ## Results
-With the hyperparameters chosen above, I could achieve a final score of , with a final IoU of .
+With the hyperparameters chosen above, I could achieve a final score of 0.412, with a final IoU of 0.547.
 
 ## Future Enhancements
 I used exclusively the training data set provided by Udacity for this project. One possible way to improve performance would
