@@ -67,6 +67,5 @@ be to augment this dataset with a lot more data, collected by flying the drone i
 collection runs in such a way as to obtain several different viewing angles and distances of the hero by the drone, and in
 several different regions of the map, in varying levels of crowdedness. Adding several well-planned image runs in this way
 would be a promising method of improving performance. Another possible enhancement would be to use regularization techniques
-such as dropout in the encoding layers, to prevent overfitting on the training set. Also using an adaptive learning rate instead
-of a fixed learning rate would improve performance as well. There is of course still the possibility of fine-tuning the
-hyper-parameters even more, possibly with some kind of evolutionary algorithm.
+such as dropout in the encoding layers, to prevent overfitting on the training set. Also using an adaptive learning rate instead of a fixed learning rate would improve performance as well. There is of course still the possibility of fine-tuning the hyper-parameters even more, possibly with some kind of evolutionary algorithm.  
+Currently the model is only trained to perform semantic segmentation on the hero, other people, and the background. However if the model were trained on more classes, such as cats, dogs, cars, etc, there is no limit to what we could make the drone follow. We just have to include several images of a specific class in our training set, expand the number of classes for semantic segmentation, and we can train a drone to follow another object entirely.
