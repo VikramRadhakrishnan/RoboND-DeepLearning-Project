@@ -55,8 +55,8 @@ One final layer in the model was a 2D convolutional layer that returned an image
 ## Hyperparameters
 This project was completed by brute force optimization and fine tuning of hyperparameters. After several trial and error
 iterations, I ended up with a learning rate of 0.0015, a batch size of 128 - chosen as a power of 2 for GPU efficiency, and
-40 epochs. I left the steps per epoch, validation steps, and number of workers at their default (provided by Udacity) values.
-I noticed after ~40 iterations that my validation loss was not decreasing further.
+30 epochs. I left the steps per epoch, validation steps, and number of workers at their default (provided by Udacity) values.
+I noticed after ~30 iterations that my validation loss was not decreasing further.
 
 ## Results
 With the hyperparameters chosen above, I could achieve a final score of , with a final IoU of .
