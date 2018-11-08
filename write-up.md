@@ -14,8 +14,8 @@ the entire network. Additionally, FCNs work on images of any size, as opposed to
 which are constrained by the dimensions of the fully connected layers.
 
 ## Network architecture
-The architecture of the FCN can be summarized as three blocks - an encoder block, a 1x1 convolution layer, and a decoder block. The diagram below is a visualization of my chosen network architecture, created using Keras visualization tools (included in the Jupyter notebook with this project submission).
-![image1](https://github.com/VikramRadhakrishnan/RoboND-DeepLearning-Project/blob/master/model.png)
+The architecture of the FCN can be summarized as three blocks - an encoder block, a 1x1 convolution layer, and a decoder block. The diagram below is a visualization of my chosen network architecture, created using Keras visualization tools (included in the Jupyter notebook with this project submission). I then annotated this figure.
+![image1](https://github.com/VikramRadhakrishnan/RoboND-DeepLearning-Project/blob/master/model_annotated.jpg)
 
 ### Encoder
 The role of the encoder is to extract features from the image, just as in a standard CNN. The layers closer to the input learn
